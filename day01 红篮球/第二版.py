@@ -1,3 +1,4 @@
+# -- conding:utf8--
 lst = []
 n = 0
 while n<6:
