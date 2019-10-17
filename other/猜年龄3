@@ -1,0 +1,14 @@
+#conding:utf-8
+age = 50
+flag = True
+# break 终止
+while True:
+    user_input_age = int(input("your age is:"))
+    if  user_input_age == age:
+        print("yes")
+        break
+    elif user_input_age > age:
+        print("is bigger")
+    else:
+        print("is min")
+print("End")

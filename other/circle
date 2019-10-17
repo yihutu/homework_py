@@ -1,0 +1,13 @@
+import turtle as t
+t.pensize(2)
+t.begin_fill()
+t.color("black","red")
+t.circle(100,180)
+t.seth(-90)
+t.fd(200)
+t.end_fill()
+t.seth(360)
+t.circle(100,-180)
+t.done()
+
+
