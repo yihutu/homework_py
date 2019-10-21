@@ -1,6 +1,0 @@
-import os
-n = 0
-while n<6:
-    val =os.system('curl -vvvv -X PUT http://localhost:18601/batterycharge/v1/vehicle/rs/Audi/CN/vehicles/BAUGRAUC7PACNPRE1/error?num=3 -H "X-Country: CN" -H "X-Brand: Audi" -H "x-forwarded-proto: https" -H "x-internal: verified" -H "x-relatedjobid: 2454" -H "x-forwarded-for: 193.28.61.1" -H "X-AssertedPrincipal: ac5b490dc5d3f070d802c7111e1e9519" -H "X-OPERATIONID: null" -H "accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2" -H "X-Realm: T1CAIRealm" -H "forwarded-mandant:" -H "X-SERVICEID: rbatterycharge_v1" -H "X-TRACE-ID: MBBCDISP-appsrv001-1568038142930-31102-ACN" -H "x-forwarded-host: pre-customer-cai-dev-ca0f-mbbservices.audi-connect.cn" -H "X-AuthMethod: CERTIFICATE" -H "X-VIN: BAUGRAUC7PACNPRE1" -H "connection: keep-alive" -H "X-DEVID: BAUGRAUC7PACNPRE1@75" -H "user-agent: Java/1.8.0_191" -H "transfer-encoding: chunked" -H "accept-encoding: x-exi" --http1.0')
-    print(val)
-    n+=1
